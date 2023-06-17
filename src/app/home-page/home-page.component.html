@@ -1,0 +1,86 @@
+<nav>
+    <h1 style="font-family: monospace;">CodeBruhhh</h1>
+    <!-- <div class="navCard">
+        <div *ngFor="let content of channels">
+            <button class="channels">
+                <a href="{{content.youtube}}"target="_blank">{{content.topic}}</a>
+            </button>        
+        </div>
+    </div> -->
+</nav>
+
+<h3 class="difficulty">Basic Java</h3>
+<div class="card" *ngFor="let content of Java">
+    <div class="contentClass">
+        <h4 >{{content.topic}}</h4>
+        <button class="theory">
+            <a href="{{content.w3school}}" target="_blank">Doc</a>
+        </button>
+        <button class="youtube">
+            <a href="{{content.youtube}}" target="_blank">Youtube</a>
+        </button>
+        <div style="font-family: 'Gill Sans MT';">
+            <a>{{content.description}}</a>
+        </div>
+    </div>
+</div>
+
+
+<h3 class="difficulty">Advanced Java</h3>
+<div class="card" *ngFor="let content of advanceJava">
+        <div class="contentClass">
+            <h4 >{{content.topic}}</h4>
+            <button class="theory">
+                <a href="{{content.w3school}}" target="_blank">Doc</a>
+            </button>
+            <button class="youtube">
+                <a href="{{content.youtube}}" target="_blank">Youtube</a>
+            </button>
+            <div style="font-family: 'Gill Sans MT';">
+                <a>{{content.description}}</a>
+            </div>
+        </div>
+</div>
+
+<h3 class="difficulty">MySQL</h3>
+<div class="card" *ngFor="let content of mySQL">
+        <div class="contentClass">
+            <h4 >{{content.topic}}</h4>
+            <button class="theory">
+                <a href="{{content.w3school}}" target="_blank">Doc</a>
+            </button>
+            <button class="youtube">
+                <a href="{{content.youtube}}" target="_blank">Youtube</a>
+            </button>
+            <div style="font-family: 'Gill Sans MT';">
+                <a>{{content.description}}</a>
+            </div>
+        </div>
+</div>
+
+<h3 class="difficulty">OS</h3>
+<div class="card" *ngFor="let content of OS">
+        <div class="contentClass">
+            <h4 >{{content.topic}}</h4>
+            <button class="theory">
+                <a href="{{content.w3school}}" target="_blank">Doc</a>
+            </button>
+            <button class="youtube">
+                <a href="{{content.youtube}}" target="_blank">Youtube</a>
+            </button>
+            <div style="font-family: 'Gill Sans MT';">
+                <a>{{content.description}}</a>
+            </div>
+        </div>
+</div>
+
+<footer style="text-align: right;">
+    <a>
+        GET  SET  GO...
+    </a>
+    <br>
+    <br>
+    <a>
+        - Surya
+    </a>
+</footer>
